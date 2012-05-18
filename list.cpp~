@@ -1,0 +1,13 @@
+
+#include <stdlib.h>
+
+class list
+{
+public:
+private:
+	struct list_elem
+	{
+		struct list_elem *nxt;
+		void *itm;
+	};
+};
