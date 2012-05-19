@@ -1,0 +1,3 @@
+
+list.o: list.c
+	$(CC) $(CFLAGS) $(LIBS) -c -o list.o list.c
