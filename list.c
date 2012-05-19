@@ -43,6 +43,7 @@ void list_delete(struct list *lst)
 		{
 			lst->front = lst->current;
 			lst->current = lst->current->nxt;
+			free(lst->front->item);
 			free(lst->front);
 		}
 	free(lst);
